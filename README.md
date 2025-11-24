@@ -1,6 +1,6 @@
 ## My Cybersecurity Journey ##
 
-**Goal**
+## **Goal**
 Become a SOC Analyst within 12 months (December 2025 - December 2026)
 
 **Background**
