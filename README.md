@@ -1,15 +1,15 @@
 # My Cybersecurity Journey
 
-## Goal
-Become a SOC Analyst within 12 months (December 2025 - December 2026)
+##  Goal
+Become a SOC (Security Operations Center) Analyst within 12 months.
 
-## Background
+##  Background
 - **Computer Science:** Harvard CS50 (online)
 - **Python & Automation:** Google IT Automation with Python (online)
 - **Data Science:** IBM Data Science (online)
-- **Currently Learning:** Security+, Blue Team skills, SIEM
+- **Currently Learning:** Security+, Blue Team skills, SIEM, SOC fundamentals
 
-## Focus Areas
+##  Focus Areas
 - Security Operations Center (SOC)
 - SIEM (Security Information and Event Management)
 - Threat Detection & Response
@@ -17,26 +17,23 @@ Become a SOC Analyst within 12 months (December 2025 - December 2026)
 - Incident Response
 - Python Automation for Security
 
-## Current Status
-**Phase:** Prep Week (Nov 20-30, 2025)
-**Journey Start:** December 1, 2025
-
-## Certifications (Planned)
-- [ ] CompTIA Security+ (Target: February 2026)
-- [ ] Blue Team Level 1 (BTL1) (Target: May 2026)
-- [ ] CompTIA CySA+ 
-
-## Home Lab
-- Security Onion / Wazuh SIEM
+##  Home Lab
+- Security Onion / Wazuh (SIEM)
 - Kali Linux
 - Virtual lab environment
-- Detection rule development
+- Detection rule development and log analysis practice
 
-## Progress Tracking
-This repository will document my learning journey, projects, and achievements as I work toward becoming a SOC Analyst.
+##  What this repo is for
+This repository will document my:
+- Learning notes  
+- Home lab setups  
+- Detection ideas  
+- Small projects and scripts  
+
+as I work toward becoming a SOC Analyst.
 
 ---
 
-**Follow my journey!** 
+**Follow my journey!**
 
-*Last Updated: November 24, 2025*
+_Last Updated: November 24, 2025_
