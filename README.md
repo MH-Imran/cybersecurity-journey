@@ -36,4 +36,4 @@ as I work toward becoming a SOC Analyst.
 
 **Follow my journey!**
 
-_Last Updated: November 24, 2025_
+_Last Updated: November 29, 2025_
