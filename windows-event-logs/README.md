@@ -1,36 +1,41 @@
-# Windows Event Logs
+# Windows Event Logs (Practice Notes)
 
-This folder contains my hands-on notes and observations while learning how to analyze Windows event logs from a SOC analyst’s perspective.
+This folder is where I’m saving my Windows event log practice notes as I learn SOC-style investigation.
 
-After completing the TryHackMe Pre-Security path, I started focusing on Windows logs because most real SOC alerts are built on Windows telemetry. The goal here is to understand how activity is recorded and how analysts use logs to investigate suspicious behavior.
+I’m not trying to write perfect documentation here. The goal is to keep honest notes from real log review sessions and slowly get better at answering questions like:
+- Who did what?
+- When did it happen?
+- What process started it?
+- Does it look normal or suspicious?
 
-## What I am focusing on
-At this stage, I’m keeping things simple and practical. My focus includes:
-- Security and System logs
-- Authentication events (successful and failed logins)
-- Process and service-related events
-- Understanding what “normal” activity looks like
+Most of my focus right now is on the **Security** log, and I’m learning how to read common events with context instead of memorizing random IDs.
 
-I’m not trying to memorize every event ID — I’m learning how to read logs with context.
+---
 
-## How these notes are used
-Each file usually represents a single practice session. In the notes, I record:
-- Which logs I looked at
-- Which event IDs stood out
-- What felt normal vs unusual
-- Why a SOC analyst might care about those events
+## Files in this folder
 
-The explanations are written in my own words and may change as my understanding improves.
+- **windows-event-logs-day1.md**  
+  First session with Event Viewer. Focused on getting comfortable with Security/System logs and spotting basic logon activity.
 
-## Why this matters for SOC work
-Windows event logs are one of the main data sources used in SIEM platforms.  
-Learning where alerts come from and what they actually mean is an important step toward effective alert triage and incident investigation.
+- **windows-event-logs-day2.md**  
+  Focused on **process creation (Event ID 4688)** and what details Windows records (process name, creator, SYSTEM context, etc.).
+
+- **windows-event-logs-day3.md**  
+  Focused on **successful logon (Event ID 4624)**. Also fixed a mistake in my notes (I labeled a success event as “failed” at first), which helped me learn to trust the Event ID and keywords.
+
+---
+
+## What I’m focusing on (for now)
+- Event IDs: **4624, 4625, 4688** (and basic service-related events)
+- “Normal vs suspicious” patterns
+- Reading logs using **Event Viewer** first (PowerShell comes next)
+
+---
 
 ## What’s next
-As I progress, I plan to:
-- Use PowerShell more for log analysis
-- Connect Windows events to MITRE ATT&CK techniques
-- Correlate logs with network traffic
-- Apply this knowledge in SOC-style labs
+As I continue, I plan to:
+- Generate my own test events (failed logins, new process runs) and capture them in logs
+- Practice PowerShell filtering for faster log review
+- Connect Windows events to **MITRE ATT&CK** techniques later, once my basics are solid
 
 Learning in progress.
